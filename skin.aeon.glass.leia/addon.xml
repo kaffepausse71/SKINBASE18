@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.aeon.glass.leia" version="0.8.5" name="[COLOR orange]Aeon Glass Leia leia[/COLOR]" provider-name="tjost">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+		<import addon="script.artwork.downloader" version="13.1.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Aeon Glass Leia</summary>
+		<summary lang="el">Aeon Glass Leia</summary>
+		<summary lang="en_GB">Aeon Glass Leia</summary>
+		<summary lang="en_AU">Aeon Glass Leia</summary>
+		<summary lang="en_NZ">Aeon Glass Leia</summary>
+		<summary lang="en_US">Aeon Glass Leia</summary>
+		<summary lang="es">Aeon Glass Leia</summary>
+		<summary lang="fi">Aeon Glass Leia</summary>
+		<summary lang="fr">Aeon Glass Leia</summary>
+		<summary lang="fr_CA">Aeon Glass Leia</summary>
+		<summary lang="gl">Aeon Glass Leia</summary>
+		<summary lang="he">Aeon Glass Leia</summary>
+		<summary lang="hu">Aeon Glass Leia</summary>
+		<summary lang="is">Aeon Glass Leia</summary>
+		<summary lang="it">Aeon Glass Leia</summary>
+		<summary lang="ko">Aeon Glass Leia</summary>
+		<summary lang="lt">Aeon Glass Leia</summary>
+		<summary lang="ms">Aeon Glass Leia</summary>
+		<summary lang="nl">Aeon Glass Leia</summary>
+		<summary lang="no">Aeon Glass Leia</summary>
+		<summary lang="pl">Aeon Glass Leia</summary>
+		<summary lang="pt">Aeon Glass Leia</summary>
+		<summary lang="pt_BR">Aeon Glass Leia</summary>
+		<summary lang="ro">Aeon Glass Leia</summary>
+		<summary lang="ru">Aeon Glass Leia</summary>
+		<summary lang="sk">Aeon Glass Leia</summary>
+		<summary lang="sv">Aeon Glass Leia</summary>
+		<summary lang="th">Aeon Glass Leia</summary>
+		<summary lang="vi">Aeon Glass Leia</summary>
+		<summary lang="zh">Aeon Glass Leia</summary>
+		<description lang="de">Glass Leia: Schlanker und transparenter Skin der das klassische Aeon-Feeling beizubehalten versucht.</description>
+		<description lang="el">Glass Leia: Πλήρως επανασχεδιασμένο για να προσφέρει μια μοντέρνα αισθητική, διατηρώντας ταυτόχρονα την κλασική ομορφιά του Aeon.</description>
+		<description lang="en_GB">Glass Leia: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_AU">Glass Leia: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_NZ">Glass Leia: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_US">Glass Leia: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="es">Glass Leia: Completamente rediseñado para crear un aspecto moderno, pero conservando el toque clásico Aeon.</description>
+		<description lang="fi">Glass Leia: Täysin uudelleensuunniteltu moderni ulkoasu, kuitenkin tuntuen klassiselta Aeon:lta.</description>
+		<description lang="fr">Glass Leia : complètement revu pour créer une apparence moderne, en gardant l'impression classique d'Aeon.</description>
+		<description lang="fr_CA">Glass Leia : complètement remanié pour créer une apparence moderne, tout en conservant l'esprit classique d'Aeon.</description>
+		<description lang="he">Glass Leia: עיצוב חדש היוצר מראה מודרני אך משמר את ההרגשה של Aeon הקלאסי.</description>
+		<description lang="hr">Glass Leia: Potpuno preoblikovan moderan izgled, uz zadržani klasični Aeon osjećaj.</description>
+		<description lang="hu">Glass Leia: Teljesen áttervezett modern kinézet, de megtartva a klasszikus Aeon érzetet.</description>
+		<description lang="is">Glass Leia: Endurhannað nútímalegt útlit í anda Aeon.</description>
+		<description lang="it">Glass Leia: Completamente ridisegnato per creare un look moderno, mantenendo la consueta qualità Aeon.</description>
+		<description lang="ko">Glass Leia: 고전적인 Aeon 느낌을 유지하면서 현대적인 모습으로 완전히 다시 디자인하여 만들었습니다.</description>
+		<description lang="lt">Glass Leia: pilnai atnaujinta, kad sukurtų modernią išvaizdą, išlaikant klasikinio Aeon pojūtį.</description>
+		<description lang="ms">Glass Leia: Direka semula sepenuhnya untuk hasilkan penampilan modern, tetapi masih mengekalkan penampilan Aeon klasik.</description>
+		<description lang="nl">Glass Leia: Volledig opnieuw ontworpen om een ​​moderne look te creëren, met behoud van het klassieke Aeon gevoel.</description>
+		<description lang="no">Glass Leia: Helt redesignet for å gi deg en moderne utforming, samtidig som man beholder den klassiske Aeon følelsen.</description>
+		<description lang="pl">Glass Leia: Całkowicie przeprojektowana skóra Aeon, o nowoczesnym wyglądzie, zachowując klasyczny układ skóry Aeon.</description>
+		<description lang="pt">Glass Leia: Completamente redesenhado para criar um visual moderno enquanto retém o toque clássico Aeon.</description>
+		<description lang="pt_BR">Glass Leia: Design completamente novo para criar um look moderno, mantendo o feeling do Aeon Clássico.</description>
+		<description lang="ru">Glass Leia: полностью переделенная, модернизированная классическая обложка Aeon.</description>
+		<description lang="sk">Glass Leia: Kompletne prepracovaný dizajn s moderným vzhľadom pri zachovaní klasického štýlu Aeon.</description>
+		<description lang="sv">Glass Leia: Totalt omarbetad för att skapa ett modernt utseende, samtidigt som man behåller den klassiska Aeon-känslan.</description>
+		<description lang="th">Glass Leia: การออกแบบใหม่หมดจด เพื่อสร้างรูปลักษณ์ทันสมัย, ​​ขณะที่ยังคงความรู้สึกคลาสสิคของ Aeon.</description>
+		<description lang="vi">Glass Leia: Thiết kế lại hoàn toàn để tạo nên một phong cách hiện đại, trong khi đó vẫn duy trì một cảm giác Aeon cổ điển.</description>
+		<disclaimer lang="en_GB">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<news>0.8.0 [CR]FullScreen Info View [CR] .A-J minor changes on Views to adjust alignment on different resolutions.[CR]0.8.0.M Bottom graphics on views for better visibility
+		[CR] 0.8.0.N Cleanup of MusicVizualisation [CR] 0.8.0.O New Logo [CR] 0.8.2 New Logo on Home | New View "Music List" in Music [CR] 0.8.2.A Cleanup Logo while Play Audio or Video 
+		[CR] 0.8.3 (BETA) New Album View still in the making [CR] 0.8.3.A Play with Animations [CR] 0.8.3.B minor changes [CR]0.8.4.A Beta of the new Carousell View in Album Take a look at your Albums and the Songs inside.[CR]0.8.4.B Carousell final [CR]0.8.5 new Busy Dialog. Keyboard Changes</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>

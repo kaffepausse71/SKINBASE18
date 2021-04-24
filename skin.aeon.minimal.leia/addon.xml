@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.aeon.minimal.leia" version="1.1.0" name="[COLOR orange]Aeon minimal Leia[/COLOR]" provider-name="tjost">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="script.artwork.beef" version="0.10.2"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">Aeon minimal</summary>
+		<summary lang="el">Aeon minimal</summary>
+		<summary lang="en_GB">Aeon minimal</summary>
+		<summary lang="en_AU">Aeon minimal</summary>
+		<summary lang="en_NZ">Aeon minimal</summary>
+		<summary lang="en_US">Aeon minimal</summary>
+		<summary lang="es">Aeon minimal</summary>
+		<summary lang="fi">Aeon minimal</summary>
+		<summary lang="fr">Aeon minimal</summary>
+		<summary lang="fr_CA">Aeon minimal</summary>
+		<summary lang="gl">Aeon minimal</summary>
+		<summary lang="he">Aeon minimal</summary>
+		<summary lang="hu">Aeon minimal</summary>
+		<summary lang="is">Aeon minimal</summary>
+		<summary lang="it">Aeon minimal</summary>
+		<summary lang="ko">Aeon minimal</summary>
+		<summary lang="lt">Aeon minimal</summary>
+		<summary lang="ms">Aeon minimal</summary>
+		<summary lang="nl">Aeon minimal</summary>
+		<summary lang="no">Aeon minimal</summary>
+		<summary lang="pl">Aeon minimal</summary>
+		<summary lang="pt">Aeon minimal</summary>
+		<summary lang="pt_BR">Aeon minimal</summary>
+		<summary lang="ro">Aeon minimal</summary>
+		<summary lang="ru">Aeon minimal</summary>
+		<summary lang="sk">Aeon minimal</summary>
+		<summary lang="sv">Aeon minimal</summary>
+		<summary lang="th">Aeon minimal</summary>
+		<summary lang="vi">Aeon minimal</summary>
+		<summary lang="zh">Aeon minimal</summary>
+		<description lang="de">minimal: Schlanker und transparenter Skin der das klassische Aeon-Feeling beizubehalten versucht.</description>
+		<description lang="el">minimal: Πλήρως επανασχεδιασμένο για να προσφέρει μια μοντέρνα αισθητική, διατηρώντας ταυτόχρονα την κλασική ομορφιά του Aeon.</description>
+		<description lang="en_GB">minimal: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_AU">minimal: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_NZ">minimal: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="en_US">minimal: Completely redesigned to create a modern look, while retaining the classic Aeon feel.</description>
+		<description lang="es">minimal: Completamente rediseñado para crear un aspecto moderno, pero conservando el toque clásico Aeon.</description>
+		<description lang="fi">minimal: Täysin uudelleensuunniteltu moderni ulkoasu, kuitenkin tuntuen klassiselta Aeon:lta.</description>
+		<description lang="fr">minimal : complètement revu pour créer une apparence moderne, en gardant l'impression classique d'Aeon.</description>
+		<description lang="fr_CA">minimal : complètement remanié pour créer une apparence moderne, tout en conservant l'esprit classique d'Aeon.</description>
+		<description lang="he">minimal: עיצוב חדש היוצר מראה מודרני אך משמר את ההרגשה של Aeon הקלאסי.</description>
+		<description lang="hr">minimal: Potpuno preoblikovan moderan izgled, uz zadržani klasični Aeon osjećaj.</description>
+		<description lang="hu">minimal: Teljesen áttervezett modern kinézet, de megtartva a klasszikus Aeon érzetet.</description>
+		<description lang="is">minimal: Endurhannað nútímalegt útlit í anda Aeon.</description>
+		<description lang="it">minimal: Completamente ridisegnato per creare un look moderno, mantenendo la consueta qualità Aeon.</description>
+		<description lang="ko">minimal: 고전적인 Aeon 느낌을 유지하면서 현대적인 모습으로 완전히 다시 디자인하여 만들었습니다.</description>
+		<description lang="lt">minimal: pilnai atnaujinta, kad sukurtų modernią išvaizdą, išlaikant klasikinio Aeon pojūtį.</description>
+		<description lang="ms">minimal: Direka semula sepenuhnya untuk hasilkan penampilan modern, tetapi masih mengekalkan penampilan Aeon klasik.</description>
+		<description lang="nl">minimal: Volledig opnieuw ontworpen om een ​​moderne look te creëren, met behoud van het klassieke Aeon gevoel.</description>
+		<description lang="no">minimal: Helt redesignet for å gi deg en moderne utforming, samtidig som man beholder den klassiske Aeon følelsen.</description>
+		<description lang="pl">minimal: Całkowicie przeprojektowana skóra Aeon, o nowoczesnym wyglądzie, zachowując klasyczny układ skóry Aeon.</description>
+		<description lang="pt">minimal: Completamente redesenhado para criar um visual moderno enquanto retém o toque clássico Aeon.</description>
+		<description lang="pt_BR">minimal: Design completamente novo para criar um look moderno, mantendo o feeling do Aeon Clássico.</description>
+		<description lang="ru">minimal: полностью переделенная, модернизированная классическая обложка Aeon.</description>
+		<description lang="sk">minimal: Kompletne prepracovaný dizajn s moderným vzhľadom pri zachovaní klasického štýlu Aeon.</description>
+		<description lang="sv">minimal: Totalt omarbetad för att skapa ett modernt utseende, samtidigt som man behåller den klassiska Aeon-känslan.</description>
+		<description lang="th">minimal: การออกแบบใหม่หมดจด เพื่อสร้างรูปลักษณ์ทันสมัย, ​​ขณะที่ยังคงความรู้สึกคลาสสิคของ Aeon.</description>
+		<description lang="vi">minimal: Thiết kế lại hoàn toàn để tạo nên một phong cách hiện đại, trong khi đó vẫn duy trì một cảm giác Aeon cổ điển.</description>
+		<disclaimer lang="en_GB">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<news>inital release[BR]0.0.7:Now Playing Widget[BR]0.8.5 a lot of changes[BR]0.8.9 tweaks to fit new Leia API / Shift and BigList implemented</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
