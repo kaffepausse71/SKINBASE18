@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.aeon.viper" version="7.0.8" name="Aeon Nox: Viper" provider-name="Terror Skins">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0" />
+		<import addon="script.skinshortcuts" version="1.0.10" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="script.grab.fanart" version="0.12.8" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_US">Created by SiLVO, Modded by Viper, and Compressed by Terror</summary>
+		<description lang="en_US">Base skin for Viper's Glow Bars</description>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-09.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-10.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-11.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-12.jpg</screenshot>
+		</assets>
+		<news>[I][COLOR FFFF9800]v7.0.8[/COLOR][/I][CR]-added default backgrounds.[CR][I][I][COLOR FFFF9800]v7.0.7[/COLOR][/I][CR]-added additional color preset themes.[CR]-changed listselect to a neutral color (better compatibility with preset theme colors).[CR][I][COLOR FFFF9800][I][I][COLOR FFFF9800]v7.0.6[/COLOR][/I][CR]-repositioned notification bar, icons, txt.[CR]-repositioned a couple other panels.[CR]-shrunk floor.png a little (better compatibilty with older glowbars).[CR]-lowered mainmenu font slightly and shrunk some default fonts a little.[CR]-added 20 new fonts (Viper1-20).[CR][I][I][COLOR FFFF9800]v7.0.5[/COLOR][/I][CR]-repositioned bottombar again.[CR]-changed default theme color to white. [CR][I][I][COLOR FFFF9800]v7.0.4[/COLOR][/I][CR]-changed fanart.[CR]-changed default listselect. [CR]-removed collordifuse from listselect, buttonshutdownfocus, midtexture.[CR]-repositioned bottombar.[CR]-repositioned the OSD buttons and decreased the size to better fit the bottombar.[CR][I][I][COLOR FFFF9800]v7.0.3[/COLOR][/I][CR]-moved backspace and centered keyboard. [CR]-Removed transparency from Listpanels.[CR][I][COLOR FFFF9800]v7.0.2[/COLOR][/I][CR]-Extracted the textures file and compressed all images in the skin.[CR]-Changed addon ID, icon, and fanart.[CR]-Based on SiLVO v7.0.2.[CR]</news>
+	</extension>
+</addon>

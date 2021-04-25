@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.atomic.bomb.18" version="1.0.0" name="[COLOR orange]ATOM1C  BOMB[/COLOR]" provider-name="ATOM1C">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="script.grab.fanart" version="0.12.8"/>
+		<import addon="script.skinshortcuts" version="0.4.5"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="resource.images.studios.white" version="0.0.1"/>
+		<import addon="resource.images.recordlabels.white" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Skin Themed by ATOM1C and Terrorize Kodi.</summary>
+		<summary lang="en_GB">Skin Themed by ATOM1C and Terrorize Kodi.</summary>
+		<description lang="de_DE">ATOM1C.BOMB Mod.</description>
+		<description lang="en_GB">ATOM1C.BOMB Mod.</description>
+		<platform>all</platform>
+		<license>CC BY-NC-SA 4.0</license>
+		<news>inital release[BR]0.0.1</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+		</assets>
+		<size>32110536</size>
+	</extension>
+</addon>
