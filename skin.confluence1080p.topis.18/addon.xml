@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.confluence1080p.topis.18" version="3.3.24" name="[COLOR orange]Confluence 1080p[/COLOR] [COLOR red]UltimateTopics[/COLOR]" provider-name="SKINBASE">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Skins und Skin Themen by Guidos Skinbase.</summary>
+		<summary lang="en_GB">Skins and Skin Themen by Guidos Skinbase.</summary>
+		<description lang="de_DE">Guidos Skinbase Repo. Die größte Skinbase der Welt mit unzähligen Skin Mods und Skin Themen aus der ganzen Welt. Ständig erweitert und verbessert, so sollte für jeden was dabei sein viel Spaß. </description>
+		<description lang="en_GB">Guido's Skinbase Repo. The largest skinbase in the world with countless skin mods and skin themes from around the world. Constantly expanding and improving, there should be something for everyone.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.jpg</screenshot>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+		</assets>
+		<size>15127899</size>
+        <news lang="en_GB">Equipped with the Skin Topics Loader. A skin with endless possibilities and themes. You can find the settings in the Skin Settings!</news>
+		<news lang="de_DE">Ausgestattet mit dem Skin Topics Loader. Ein Skin mit unendlichen Möglichkeiten und Themen. Die Einstellungen findet ihr in den Skin Settings !</news>
+	</extension>
+	
+</addon>
