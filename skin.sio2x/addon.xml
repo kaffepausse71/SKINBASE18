@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.sio2x" version="4.1.8" name="[COLOR orange]SiO2-X[/COLOR]" provider-name="FastColors">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0"/>
+        <import addon="service.library.data.provider" version="0.0.4"/>
+        <import addon="script.favourites" version="3.2.5"/>
+    </requires>
+    <extension
+            point="xbmc.gui.skin"
+            debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Evolution of a Skin.</summary>
+        <description>Sio2-X - Places everything You need just a few clicks away. Simple yet fully featured skin. Oh and it's wife friendly.</description>
+        <disclaimer>Aliens'R'Us</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+        <platform>all</platform>
+        <licence></licence>
+        <forum>http://forum.kodi.tv/showthread.php?tid=207225</forum>
+        <source>https://github.com/fastcolors/skin.sio2x</source>
+        <email></email>
+		<size>25556979</size>
+    </extension>
+	
+</addon>
