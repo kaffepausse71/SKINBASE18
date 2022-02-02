@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.nemesis.light.free.red"
+  version="1.0.1"
+  name="Nemesis Light Free Red"
+  provider-name="Created by OoVan86oO + mr-evil1">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0"/>
+        <import addon="resource.images.studios.white" version="0.0.4"/>
+        <import addon="script.skinshortcuts" version="0.6.6"/>
+        <import addon="script.toolbox" version="1.0.0"/>
+       <import addon="script.extendedinfo" version="5.6.0"/>
+    </requires>
+    <extension
+      point="xbmc.gui.skin"
+      debugging="false"
+      effectslowdown="0.75">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login" />
+    <extension point="xbmc.addon.metadata">
+       <summary lang="de_DE">Nemesis Light Free mit einer leicht zu navigierenden Oberfläche</summary>
+        <platform>all</platform>
+        <license>CC BY-NC-SA 4.0</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=218</forum>
+        <website></website>
+        <email></email>
+        <source></source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+		<size>12204540</size>
+    </extension>
+	
+</addon>
