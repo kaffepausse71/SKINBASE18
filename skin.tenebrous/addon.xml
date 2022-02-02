@@ -1,0 +1,36 @@
+<addon id="skin.tenebrous" name="[COLOR orange]Tenebrous[/COLOR]" provider-name="nymeria,skinbase" version="9.99.9.99">
+	<requires>
+		<import addon="xbmc.gui" version="5.14.0" />
+		<import addon="script.grab.fanart" version="0.12.8" />
+		<import addon="script.skinshortcuts" version="0.4.5" />
+		<import addon="service.library.data.provider" version="0.0.7" />
+		<import addon="resource.images.studios.white" version="0.0.1" />
+		<import addon="resource.images.recordlabels.white" version="0.0.1" />
+		<import addon="script.check.theme" version="0.0.1" />
+	</requires>
+	<extension debugging="false" effectslowdown="0.75" point="xbmc.gui.skin">
+		<res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Tenebrous</summary>
+		<summary lang="en_AU">Tenebrous</summary>
+		<summary lang="en_NZ">Tenebrous</summary>
+		<summary lang="en_US">Tenebrous</summary>
+		<summary lang="es_ES">Tenebrous</summary>
+		<description lang="en_GB">Tenebrous: Changes everything so that nothing changes. Inspired on Aeon Nox 5 (thanks to BigNoid).</description>
+		<description lang="en_AU">Tenebrous: Changes everything so that nothing changes. Inspired on Aeon Nox 5 (thanks to BigNoid).</description>
+		<description lang="en_NZ">Tenebrous: Changes everything so that nothing changes. Inspired on Aeon Nox 5 (thanks to BigNoid).</description>
+		<description lang="en_US">Tenebrous: Changes everything so that nothing changes. Inspired on Aeon Nox 5 (thanks to BigNoid).</description>
+		<description lang="es_ES">Tenebrous: Cambia todo para que nada cambie. Inspirado en Aeon Nox 5 (gracias a BigNoid).</description>
+		<disclaimer lang="en_GB">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
+		<disclaimer lang="en_AU">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
+		<disclaimer lang="en_NZ">Mouse control is supported, althoug not recommended. It may not work correctly in all cases.</disclaimer>
+		<disclaimer lang="es_ES">Control con el ratón no recomendado. Puede no funcionar bien en algunos casos.</disclaimer>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>	
+		</assets>
+		<size>13303756</size>
+	</extension>
+</addon>
